@@ -394,51 +394,48 @@ def contouring(threshold_value, thresholded_grayscale_image):
 	status_logger(contouring_status_key)
 
 #Model being called beyond this
-def main():
 
-	#Function to describe the log_name and also start and stop times
-	log_name, image_dump_path, status_log_dump_path, dataframe_dump_path = pre_processing()
+#Function to describe the log_name and also start and stop times
+log_name, image_dump_path, status_log_dump_path, dataframe_dump_path = pre_processing()
 
-	#Logging the start of the program
-	program_start(log_name)
+#Logging the start of the program
+program_start(log_name)
 
-	#Function to parse the file_name argument
-	file_name = parser()
+#Function to parse the file_name argument
+file_name = parser()
 
-	#Accepts the file_name and extracts the image, bloated image_viewer file
-	image = image_reader(file_name, "Original_Image")
+#Accepts the file_name and extracts the image, bloated image_viewer file
+image = image_reader(file_name, "Original_Image")
 
-	#Pre-processing functions, including resize and Gaussian blur
-	post_processed_image = image_pre_processing(image)
+#Pre-processing functions, including resize and Gaussian blur
+post_processed_image = image_pre_processing(image)
 
-	#Builds the initial dataframe, referenced directly to the image
-	pixel_data = dataframe_builder(post_processed_image, "Pixel_DataFrame")
+#Builds the initial dataframe, referenced directly to the image
+pixel_data = dataframe_builder(post_processed_image, "Pixel_DataFrame")
 
-	#Extracts the pixels from the image and transfers them to the dataframe
-	pixel_data = pixel_extractor(post_processed_image, pixel_data)
+#Extracts the pixels from the image and transfers them to the dataframe
+pixel_data = pixel_extractor(post_processed_image, pixel_data)
 
-	#Extracts the maximum valued channel, and reduces all other values to 0
-	max_channel_value(post_processed_image, pixel_data)
+#Extracts the maximum valued channel, and reduces all other values to 0
+max_channel_value(post_processed_image, pixel_data)
 
-	#Retains only red channel value
-	red_value_determiner(post_processed_image, pixel_data)
+#Retains only red channel value
+red_value_determiner(post_processed_image, pixel_data)
 
-	#Captures red channel data
-	red_channel_data = red_value_extractor(post_processed_image, pixel_data)
+#Captures red channel data
+red_channel_data = red_value_extractor(post_processed_image, pixel_data)
 
-	#Calculates the mean and total value of the all red-value of the pixels
-	red_channel_mean = mean_calculator(post_processed_image, red_channel_data)
+#Calculates the mean and total value of the all red-value of the pixels
+red_channel_mean = mean_calculator(post_processed_image, red_channel_data)
 
-	#Classifies the red pixels that lie above the calculated mean value
-	classify_red_pixels(post_processed_image, pixel_data, red_channel_mean)
+#Classifies the red pixels that lie above the calculated mean value
+classify_red_pixels(post_processed_image, pixel_data, red_channel_mean)
 
-	#B/W Image is thresholded before contouring
-	threshold_value, thresholded_grayscale_image = pre_contouring(post_processed_image)
+#B/W Image is thresholded before contouring
+threshold_value, thresholded_grayscale_image = pre_contouring(post_processed_image)
 
-	#Contours are determined and applied onto the 
-	contouring(threshold_value, thresholded_grayscale_image)
+#Contours are determined and applied onto the 
+contouring(threshold_value, thresholded_grayscale_image)
 
-	#Logging the end of the program
-	program_end(log_name)
-
-main()
+#Logging the end of the program
+program_end(log_name)
