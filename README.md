@@ -5,10 +5,11 @@ This is a project undertaken at the <a href="https://teelabiisc.wordpress.com" t
 :warning: <strong>Code is buggy</strong> :warning: 
 
 ### Introduction:
+
 - This project aims to develop a tool to identify different algal species in the in a given coral reef image.
 - Currently, the tool is written in Python, incorporating the following libraries:
 	- <a title="OpenCV" href="https://opencv.org/" target="_blank">OpenCV</a> - For analyzing, reading, writing of the image.
-	- <a title="pandas" href="https://pandas.pydata.org/" target="_blank">Pandas </a>- For building image 'data frames' for ease of data manipulation.
+	- <a title="pandas" href="https://pandas.pydata.org/" target="_blank">Pandas </a> - For building image 'data frames' for ease of data manipulation.
 	- <a title="numpy" href="http://www.numpy.org/" target="_blank">Numpy</a> - For building custom arrays throughout the program.
 	
 	<strong>Note:</strong> Code is still in it's nascent stages and has not been developed completely. Feel free to reach out if you would like to collaborate or have ideas to fix discrepancies.
@@ -19,7 +20,7 @@ This is a project undertaken at the <a href="https://teelabiisc.wordpress.com" t
 	- ```--file_name``` is used to locate the image which has to be analyzed.
 	- ```--color_mode``` is used to specify the type of algal colony to be classified in the given sample.
 
-	<strong>Note:</strong> Curently, the ```--color_mode``` parameter is not being used, and by default only red algae are being identified. 
+	<strong>Note:</strong> Currently, the ```--color_mode``` parameter is not being used, and by default only red algae are being identified. 
 2. The ```file_name``` argument is then passed onto the ```image_reader()``` which accepts the arguments from the ```parser()``` and extracts the image from the disc.
 
 3.  The image is then viewed for the convenience of the user using the ```image_viewer()``` function.
@@ -39,17 +40,20 @@ This is a project undertaken at the <a href="https://teelabiisc.wordpress.com" t
 9. In order to threshold and run analysis (such as regression), we transfer the pixels onto another pandas ```dataframe``` using the ```red_value_extractor()``` function.
 
 ### Results:
+
 1. <strong>Sample_Image_1</strong>
 
 	- <a title="Original_Image_1" href="https://raw.githubusercontent.com/SarthakJShetty/Algae/master/Data_Logs/Data_Logs_2018-08-01_20_7/Image_Dump/Post_Resizing_Image.png" target="_blank">Original Image<a>
-		<p align="center">
+	<p align="center">
 		<img src="https://raw.githubusercontent.com/SarthakJShetty/Algae/master/Data_Logs/Data_Logs_2018-08-01_20_7/Image_Dump/Post_Resizing_Image.png" height="75%" width= "75%">
-		<figcaption align="center"><em>Fig 1.1 Original Sample_Image_1, post resizing</em></figcaption></p>
+		<figcaption align="center"><em>Fig 1.1 Original Sample_Image_1, post resizing</em></figcaption>
+	</p>
 	
 	- <a title="Contoured_Image_1" href="https://raw.githubusercontent.com/SarthakJShetty/Algae/master/Data_Logs/Data_Logs_2018-08-01_20_7/Image_Dump/Contoured_Image.png" target="_blank">Contoured Image</a>
 	<p align="center">
 		<img src="https://raw.githubusercontent.com/SarthakJShetty/Algae/master/Data_Logs/Data_Logs_2018-08-01_20_7/Image_Dump/Contoured_Image.png" height="75%" width= "75%">
-		<figcaption align="center"><em>Fig 1.2 Contoured Sample_Image_1, post resizing</em></figcaption></p>
+		<figcaption align="center"><em>Fig 1.2 Contoured Sample_Image_1, post resizing</em></figcaption>
+	</p>
 	
 2. <strong>Sample_Image_2</strong>
 
