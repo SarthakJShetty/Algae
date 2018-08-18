@@ -1,4 +1,3 @@
-
 # Coral Reef Analysis
 
 This is a project undertaken at the <a href="https://teelabiisc.wordpress.com" title="TEE-Lab, IISc" target="_blank">Theoretical Ecology & Evolution Lab</a> in the <a href="http://ces.iisc.ernet.in" title="CES, IISc" target="_blank">Center for Ecological Sciences</a>, <a href="https://iisc.ac.in" title="IISc, Bengaluru" target="_blank">Indian Institute of Science</a>, for the identification of algal colonies in images of coral reefs.
@@ -11,14 +10,16 @@ This is a project undertaken at the <a href="https://teelabiisc.wordpress.com" t
 	- <a title="OpenCV" href="https://opencv.org/" target="_blank">OpenCV</a> - For analyzing, reading, writing of the image.
 	- <a title="pandas" href="https://pandas.pydata.org/" target="_blank">Pandas </a>- For building image 'data frames' for ease of data manipulation.
 	- <a title="numpy" href="http://www.numpy.org/" target="_blank">Numpy</a> - For building custom arrays throughout the program.
+	
+	<strong>Note:</strong> Code is still in it's nascent stages and has not been developed completely. Feel free to reach out if you would like to collaborate or have ideas to fix discrepancies.
 
 ### Model Overview:
 
 1. A ```parser()``` function is used to read input parameters from the user. The parameters used right now are ```--file_name``` and ```--color_mode```.
-	- ```--file_name``` is used to locate the image which has to be analysed.
+	- ```--file_name``` is used to locate the image which has to be analyzed.
 	- ```--color_mode``` is used to specify the type of algal colony to be classified in the given sample.
 
-	<strong>Note:</strong> Cuurently, the ```--color_mode``` parameter is not being used, and by default only red algae are being identified. 
+	<strong>Note:</strong> Curently, the ```--color_mode``` parameter is not being used, and by default only red algae are being identified. 
 2. The ```file_name``` argument is then passed onto the ```image_reader()``` which accepts the arguments from the ```parser()``` and extracts the image from the disc.
 
 3.  The image is then viewed for the convenience of the user using the ```image_viewer()``` function.
