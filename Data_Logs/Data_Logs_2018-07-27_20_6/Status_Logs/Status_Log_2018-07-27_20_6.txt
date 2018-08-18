@@ -1,0 +1,53 @@
+Session:27/7/2018
+Time:20:6:0
+
+20:6:0[INFO] Parser has obtained filename
+20:6:0[INFO] Image has been identified on disc
+20:6:0[INFO] Original_Image image is being written to the disc
+20:6:1[INFO] Original_Image image has been written to the disc
+20:6:1[INFO] Image has been passed on
+20:6:1[INFO] Image is being preprocessed
+20:6:1[INFO] Post_Processing_Image image is being written to the disc
+20:6:1[INFO] Post_Processing_Image image has been written to the disc
+20:6:1[INFO] Image has been preprocessed
+20:6:1[INFO] Pixel_DataFrame is being built
+20:6:1[INFO] Viewing: Pixel_DataFrame
+20:6:1[INFO] Pixel_DataFrame has been built
+20:6:1[INFO] Image pixels are being transferred to dataframe
+20:7:19[INFO] Viewing: Pixel_DataFrame
+20:7:19[INFO] Pixel_DataFrame is being dumped to disc
+20:7:51[INFO] Pixel_DataFrame has been dumped to disc
+20:7:51[INFO] Image pixels have been transferred to the dataframe
+20:7:51[INFO] Pixel channel with highest value is being extracted
+20:17:18[INFO] Maximum_Channel_Value_Image image is being written to the disc
+20:17:18[INFO] Maximum_Channel_Value_Image image has been written to the disc
+20:17:18[INFO] Viewing: Maximum_Channel_Value_DataFrame
+20:17:18[INFO] Maximum_Channel_Value_DataFrame is being dumped to disc
+20:17:50[INFO] Maximum_Channel_Value_DataFrame has been dumped to disc
+20:17:50[INFO] Pixel channel with highest value have been extracted
+20:17:50[INFO] Entering the red_value_determiner function
+20:21:49[INFO] Red_Value_Image image is being written to the disc
+20:21:49[INFO] Red_Value_Image image has been written to the disc
+20:21:49[INFO] Viewing: Red_Value_DataFrame
+20:21:49[INFO] Red_Value_DataFrame is being dumped to disc
+20:22:20[INFO] Red_Value_DataFrame has been dumped to disc
+20:22:20[INFO] Pixels with red channel values have been captured
+20:22:20[INFO] Extracting Red Channel Value
+20:22:21[INFO] Red_Channel_Value_DataFrame is being built
+20:22:21[INFO] Viewing: Red_Channel_Value_DataFrame
+20:22:21[INFO] Red_Channel_Value_DataFrame has been built
+20:24:59[INFO] Viewing: Red_Value_Extractor_DataFrame
+20:24:59[INFO] Red_Value_Extractor_DataFrame is being dumped to disc
+20:24:59[INFO] Red_Value_Extractor_DataFrame has been dumped to disc
+20:24:59[INFO] Red Channel Value has been extracted
+20:24:59[INFO] Calculating the mean value of red pixels
+20:27:4[INFO] Sum of red pixel values: 11427990
+20:27:4[INFO] Number of red pixels visited: 120151
+20:27:4[INFO] Mean value of red pixels is: 125
+20:27:4[INFO] Classifying pixels with red channel value greater than mean
+20:29:54[INFO] Classified_Red_Pixels_Image image is being written to the disc
+20:29:54[INFO] Classified_Red_Pixels_Image image has been written to the disc
+20:29:54[INFO] Viewing: Classified_Red_Pixels_DataFrame
+20:29:54[INFO] Classified_Red_Pixels_DataFrame is being dumped to disc
+20:30:31[INFO] Classified_Red_Pixels_DataFrame has been dumped to disc
+20:30:31[INFO] Pixels with red channel value greater than mean have been classified

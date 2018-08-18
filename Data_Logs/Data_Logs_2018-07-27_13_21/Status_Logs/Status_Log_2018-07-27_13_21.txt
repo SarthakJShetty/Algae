@@ -1,0 +1,51 @@
+Session:27/7/2018
+Time:13:21:26
+
+13:21:26[INFO] Parser has obtained filename
+13:21:26[INFO] Image has been identified on disc
+13:21:27[INFO] Original_Image image is being written to the disc
+13:21:27[INFO] Original_Image image has been written to the disc
+13:21:27[INFO] Image has been passed on
+13:21:27[INFO] Image is being preprocessed
+13:21:28[INFO] Post_Processing_Image image is being written to the disc
+13:21:28[INFO] Post_Processing_Image image has been written to the disc
+13:21:28[INFO] Image has been preprocessed
+13:21:28[INFO] Pixel_DataFrame is being built
+13:21:28[INFO] Viewing: Pixel_DataFrame
+13:21:28[INFO] Pixel_DataFrame has been built
+13:21:28[INFO] Image pixels are being transferred to dataframe
+13:22:42[INFO] Viewing: Pixel_DataFrame
+13:22:42[INFO] Pixel_DataFrame is being dumped to disc
+13:23:14[INFO] Pixel_DataFrame has been dumped to disc
+13:23:14[INFO] Image pixels have been transferred to the dataframe
+13:23:14[INFO] Pixel channel with highest value is being extracted
+13:32:35[INFO] Maximum_Channel_Value_Image image is being written to the disc
+13:32:35[INFO] Maximum_Channel_Value_Image image has been written to the disc
+13:32:35[INFO] Viewing: Maximum_Channel_Value_DataFrame
+13:32:35[INFO] Maximum_Channel_Value_DataFrame is being dumped to disc
+13:33:6[INFO] Maximum_Channel_Value_DataFrame has been dumped to disc
+13:33:6[INFO] Pixel channel with highest value have been extracted
+13:33:6[INFO] Entering the red_value_determiner function
+13:58:18[INFO] Red_Value_Image image is being written to the disc
+13:58:18[INFO] Red_Value_Image image has been written to the disc
+13:58:18[INFO] Viewing: Red_Value_DataFrame
+13:58:18[INFO] Red_Value_DataFrame is being dumped to disc
+13:58:54[INFO] Red_Value_DataFrame has been dumped to disc
+13:58:54[INFO] Pixels with red channel values have been captured
+13:58:54[INFO] Extracting Red Channel Value
+13:58:54[INFO] Red_Channel_Value_DataFrame is being built
+13:58:54[INFO] Viewing: Red_Channel_Value_DataFrame
+13:58:54[INFO] Red_Channel_Value_DataFrame has been built
+14:1:29[INFO] Viewing: Red_Value_Extractor_DataFrame
+14:1:29[INFO] Red_Value_Extractor_DataFrame is being dumped to disc
+14:1:30[INFO] Red_Value_Extractor_DataFrame has been dumped to disc
+14:1:30[INFO] Red Channel Value has been extracted
+14:1:30[INFO] Calculating the mean value of red pixels
+14:2:51[INFO] Mean value of red pixels is:18
+14:2:51[INFO] Classifying pixels with red channel value greater than mean
+14:5:24[INFO] Classified_Red_Pixels_Image image is being written to the disc
+14:5:24[INFO] Classified_Red_Pixels_Image image has been written to the disc
+14:5:24[INFO] Viewing: Classified_Red_Pixels_DataFrame
+14:5:24[INFO] Classified_Red_Pixels_DataFrame is being dumped to disc
+14:5:55[INFO] Classified_Red_Pixels_DataFrame has been dumped to disc
+14:5:55[INFO] Pixels with red channel value greater than mean have been classified

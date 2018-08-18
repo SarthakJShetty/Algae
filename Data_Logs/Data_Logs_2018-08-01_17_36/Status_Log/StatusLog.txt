@@ -1,0 +1,82 @@
+Session:1/8/2018
+Time:17:36:37
+
+17:36:37[INFO] Program Session: 2018-08-01_17_36 Status: Start
+
+17:36:37[INFO] Parser has obtained filename
+17:36:37[INFO] Original_Image has been identified on disc
+17:36:37[INFO] Original_Image image is being written to the disc
+17:36:37[INFO] Original_Image image has been written to the disc
+17:36:37[INFO] Original_Image has been passed on
+17:36:37[INFO] Image is being preprocessed
+17:36:38[INFO] Post_Resizing_Image image is being written to the disc
+17:36:38[INFO] Post_Resizing_Image image has been written to the disc
+17:36:38[INFO] Image has been resized
+17:36:38[INFO] Post_Processing_Image image is being written to the disc
+17:36:38[INFO] Post_Processing_Image image has been written to the disc
+17:36:38[INFO] Image has been processed for further steps
+17:36:38[INFO] Pixel_DataFrame is being built
+17:36:38[INFO] Viewing: Pixel_DataFrame
+17:36:38[INFO] Pixel_DataFrame has been built
+17:36:38[INFO] Image pixels are being transferred to dataframe
+17:38:6[INFO] Viewing: Pixel_DataFrame
+17:38:6[INFO] Pixel_DataFrame is being dumped to disc
+17:38:43[INFO] Pixel_DataFrame has been dumped to disc
+17:38:43[INFO] Image pixels have been transferred to the dataframe
+17:38:43[INFO] Pixel channel with highest value is being extracted
+18:9:19[INFO] Maximum_Channel_Value_Image image is being written to the disc
+18:9:19[INFO] Maximum_Channel_Value_Image image has been written to the disc
+18:9:19[INFO] Viewing: Maximum_Channel_Value_DataFrame
+18:9:19[INFO] Maximum_Channel_Value_DataFrame is being dumped to disc
+18:9:57[INFO] Maximum_Channel_Value_DataFrame has been dumped to disc
+18:9:57[INFO] Pixel channel with highest value have been extracted
+18:9:57[INFO] Entering the red_value_determiner function
+18:14:58[INFO] Red_Value_Image image is being written to the disc
+18:14:58[INFO] Red_Value_Image image has been written to the disc
+18:14:58[INFO] Viewing: Red_Value_DataFrame
+18:14:58[INFO] Red_Value_DataFrame is being dumped to disc
+18:15:40[INFO] Red_Value_DataFrame has been dumped to disc
+18:15:40[INFO] Pixels with red channel values have been captured
+18:15:40[INFO] Extracting Red Channel Value
+18:15:40[INFO] Red_Channel_Value_DataFrame is being built
+18:15:40[INFO] Viewing: Red_Channel_Value_DataFrame
+18:15:40[INFO] Red_Channel_Value_DataFrame has been built
+18:18:10[INFO] Viewing: Red_Value_Extractor_DataFrame
+18:18:10[INFO] Red_Value_Extractor_DataFrame is being dumped to disc
+18:18:10[INFO] Red_Value_Extractor_DataFrame has been dumped to disc
+18:18:10[INFO] Red Channel Value has been extracted
+18:18:10[INFO] Calculating the mean value of red pixels
+18:19:53[INFO] Sum of red pixel values: 11427990
+18:19:53[INFO] Number of red pixels visited: 120151
+18:19:53[INFO] Mean value of red pixels is: 95
+18:19:53[INFO] Classifying pixels with red channel value greater than mean
+18:28:7[INFO] Classified_Red_Pixels_Image image is being written to the disc
+18:28:7[INFO] Classified_Red_Pixels_Image image has been written to the disc
+18:28:7[INFO] Viewing: Classified_Red_Pixels_DataFrame
+18:28:7[INFO] Classified_Red_Pixels_DataFrame is being dumped to disc
+18:28:49[INFO] Classified_Red_Pixels_DataFrame has been dumped to disc
+18:28:49[INFO] Pixels with red channel value greater than mean have been classified
+18:28:49[INFO] Contours are being collected
+18:28:49[INFO] GrayScale_Image image is being written to the disc
+18:28:49[INFO] GrayScale_Image image has been written to the disc
+18:28:49[INFO] Grayscale image has been dumped to disc
+18:28:49[INFO] Thresholded_GrayScale_Image image is being written to the disc
+18:28:49[INFO] Thresholded_GrayScale_Image image has been written to the disc
+18:28:49[INFO] Thresholded grayscale image is being dumped to disc
+18:28:49[INFO] Contours are being identified from the thresholded grayscale image
+18:28:49[INFO] Contours have been collected
+18:28:49[INFO] Original_Image has been identified on disc
+18:28:50[INFO] Original_Image image is being written to the disc
+18:28:50[INFO] Original_Image image has been written to the disc
+18:28:50[INFO] Original_Image has been passed on
+18:28:50[INFO] Image is being preprocessed
+18:28:50[INFO] Post_Resizing_Image image is being written to the disc
+18:28:50[INFO] Post_Resizing_Image image has been written to the disc
+18:28:50[INFO] Image has been resized
+18:28:50[INFO] Post_Processing_Image image is being written to the disc
+18:28:50[INFO] Post_Processing_Image image has been written to the disc
+18:28:50[INFO] Image has been processed for further steps
+18:28:50[INFO] Contoured_Image image is being written to the disc
+18:28:50[INFO] Contoured_Image image has been written to the disc
+18:28:50[INFO] Contours are being identified from the thresholded grayscale image
+18:28:50[INFO] Program Session: 2018-08-01_17_36 Status: End
