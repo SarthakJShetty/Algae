@@ -1,4 +1,3 @@
-
 # Coral Reef Analysis
 
 This is a project undertaken at the <a href="https://teelabiisc.wordpress.com" title="TEE-Lab, IISc" target="_blank">Theoretical Ecology & Evolution Lab</a> in the <a href="http://ces.iisc.ernet.in" title="CES, IISc" target="_blank">Center for Ecological Sciences</a>, <a href="https://iisc.ac.in" title="IISc, Bengaluru" target="_blank">Indian Institute of Science</a>, for the identification of algal colonies in images of coral reefs.
@@ -43,13 +42,13 @@ This is a project undertaken at the <a href="https://teelabiisc.wordpress.com" t
 	- <a title="Original_Image_1" href="https://raw.githubusercontent.com/SarthakJShetty/Algae/master/Data_Logs/Data_Logs_2018-08-01_20_7/Image_Dump/Post_Resizing_Image.png" target="_blank">Original Image<a>
 		<p align="center">
 		<img src="https://raw.githubusercontent.com/SarthakJShetty/Algae/master/Data_Logs/Data_Logs_2018-08-01_20_7/Image_Dump/Post_Resizing_Image.png">
-		<figcaption><em>Fig 1.1 Original Sample_Image_1, post resizing</em></figcaption>
+		<figcaption align="center"><em>Fig 1.1 Original Sample_Image_1, post resizing</em></figcaption>
 	</p>
 	
 	- <a title="Contoured_Image_1" href="https://raw.githubusercontent.com/SarthakJShetty/Algae/master/Data_Logs/Data_Logs_2018-08-01_20_7/Image_Dump/Contoured_Image.png" target="_blank">Contoured Image</a>
 	<p align="center">
 		<img src="https://raw.githubusercontent.com/SarthakJShetty/Algae/master/Data_Logs/Data_Logs_2018-08-01_20_7/Image_Dump/Contoured_Image.png">
-		<figcaption><em>Fig 1.2 Contoured Sample_Image_1, post resizing</em></figcaption>
+		<figcaption align="center"><em>Fig 1.2 Contoured Sample_Image_1, post resizing</em></figcaption>
 	</p>
 	
 2. <strong>Sample_Image_2</strong>
@@ -57,11 +56,11 @@ This is a project undertaken at the <a href="https://teelabiisc.wordpress.com" t
 	- <a title="Original_Image_2" href="https://raw.githubusercontent.com/SarthakJShetty/Algae/master/Data_Logs/Data_Logs_2018-08-02_16_4/Image_Dump/Post_Resizing_Image.png" target="_blank">Original Image<a>
 	<p align="center">
 		<img src="https://raw.githubusercontent.com/SarthakJShetty/Algae/master/Data_Logs/Data_Logs_2018-08-02_16_4/Image_Dump/Post_Resizing_Image.png">
-		<figcaption><em>Fig 2.1 Original Sample_Image_2, post resizing</em></figcaption>
+		<figcaption align="center"><em>Fig 2.1 Original Sample_Image_2, post resizing</em></figcaption>
 	</p>
 
 	- <a title="Contoured_Image_2" href="https://raw.githubusercontent.com/SarthakJShetty/Algae/master/Data_Logs/Data_Logs_2018-08-02_16_4/Image_Dump/Contoured_Image.png" target="_blank">Contoured Image</a>
 	- <p align="center">
 		<img src="https://raw.githubusercontent.com/SarthakJShetty/Algae/master/Data_Logs/Data_Logs_2018-08-02_16_4/Image_Dump/Contoured_Image.png">
-		<figcaption><em>Fig 2.2 Contoured Sample_Image_2, post resizing</em></figcaption>
+		<figcaption align="center"><em>Fig 2.2 Contoured Sample_Image_2, post resizing</em></figcaption>
 	</p>
